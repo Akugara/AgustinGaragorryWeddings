@@ -984,6 +984,10 @@ footer p {
         height: 60vh;
     }
 
+    #carouselExampleIndicators .carousel-indicators {
+        display: none;
+    }
+
     /* Contact sections */
     #catalogo {
         margin-top: 6rem;
