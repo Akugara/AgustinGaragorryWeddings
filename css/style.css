@@ -104,6 +104,16 @@ header h2 {
     padding-bottom: 15rem;
 }
 
+/* Gallery (masonry) images: the width/height attributes on each <img> reserve
+   the correct aspect-ratio box before the image loads, so the masonry layout is
+   correct immediately and native lazy-loading does not cause overlap. */
+main .item picture,
+main .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .texto h1, .texto h3 {
     text-align: left;
     font-size: clamp(2.5rem, 2.3269rem + 0.4808vw, 3rem);

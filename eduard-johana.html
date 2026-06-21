@@ -35,51 +35,53 @@
 
 <body onload="cargaGaleria()">
   <header class="subpages">
-    <div class="container-fluid fixed-top" id="menu">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-          <a href="index.html" class="navbar-brand">
-              <img src="logoagustin.png" alt="Logotipo Agustin Garagorry wedding photography" width="400" height="100%"
-                  class="d-inline-block align-top" alt="logotipo de Agustin Garagorry wedding photographer">
-              <span style="display: none;">Agustin Garagorry</span>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#toggleMobileMenu" aria-controls="#toggleMobileMenu" aria-expanded="false"
-              aria-label="Toggle navigation" id="myNavBartoggler" onclick="darkMenuMobile()">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="toggleMobileMenu">
-              <ul class="navbar-nav ms-auto text-center">
-                  <li>
-                      <a class="nav-link animacion-navbar" href="aboutme.html" onclick="hideMenu()">about me</a>
-                  </li>
-                  <li class="dropdown">
-                      <a class="nav-link animacion-navbar dropbtn" href="#" onclick="hideMenu()">Weddings
+    <!-- @include nav -->
+<div class="container-fluid fixed-top" id="menu">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="logoagustin.png" alt="Logotipo Agustin Garagorry wedding photography" width="400" height="100%"
+                            class="d-inline-block align-top" alt="logotipo de Agustin Garagorry wedding photographer">
+                        <span style="display: none;">Agustin Garagorry</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#toggleMobileMenu" aria-controls="#toggleMobileMenu" aria-expanded="false"
+                        aria-label="Toggle navigation" id="myNavBartoggler" onclick="darkMenuMobile()">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                        <ul class="navbar-nav ms-auto text-center">
+                            <li>
+                                <a class="nav-link animacion-navbar" href="aboutme.html" onclick="hideMenu()">about me</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="nav-link animacion-navbar dropbtn" href="#" onclick="hideMenu()">Weddings
 
-                        <div class="dropdown-content">
-                          <a class="nav-link animacion-navbar" href="sebastian-ilona.html">sebastian & ilona</a>
-                          <a class="nav-link animacion-navbar" href="donato-chiara.html">donato & chiara</a>
-                          <a class="nav-link animacion-navbar" href="martin-maite.html">martin & maite</a>
-                          <a class="nav-link animacion-navbar" href="eduard-johana.html">eduard & johana</a>
-                          <a class="nav-link animacion-navbar" href="joanne-walter.html">joanne & walter</a>
-                          <a class="nav-link animacion-navbar" href="matias-aurora.html">matias & aurora</a>
-                        </div>
+                                  <div class="dropdown-content">
+                                    <a class="nav-link animacion-navbar" href="sebastian-ilona.html">sebastian & ilona</a>
+                                    <a class="nav-link animacion-navbar" href="donato-chiara.html">donato & chiara</a>
+                                    <a class="nav-link animacion-navbar" href="martin-maite.html">martin & maite</a>
+                                    <a class="nav-link animacion-navbar" href="eduard-johana.html">eduard & johana</a>
+                                    <a class="nav-link animacion-navbar" href="joanne-walter.html">joanne & walter</a>
+                                    <a class="nav-link animacion-navbar" href="matias-aurora.html">matias & aurora</a>
+                                  </div>
 
-                      </a>
-                          
-                  </li>
-                  <li>
-                      <a class="nav-link animacion-navbar" href="tel:+358417259298"
-                          onclick="hideMenu()">call me</a>
-                  </li>
-                  <li>
-                      <a class="nav-link animacion-navbar" href="contact.html" id="link-destacado">Contact</a>
-                  </li>
-              </ul>
-          </div>
-      </nav>
-  </div>
+                                </a>
+                                    
+                            </li>
+                            <li>
+                                <a class="nav-link animacion-navbar" href="tel:+358417259298"
+                                    onclick="hideMenu()">call me</a>
+                            </li>
+                            <li>
+                                <a class="nav-link animacion-navbar" href="contact.html" id="link-destacado">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+<!-- @endinclude nav -->
         <div>
-        <picture><source srcset="img/galeria/eduardandjohana/martinandmayteportada-01.webp" type="image/webp"><img src="img/galeria/eduardandjohana/martinandmayteportada-01.jpg" class="img-fluid imgfix" alt="Wedding photography by Agustin Garagorry"></picture>
+        <picture><source srcset="img/galeria/eduardandjohana/martinandmayteportada-01.webp" type="image/webp"><img src="img/galeria/eduardandjohana/martinandmayteportada-01.jpg" class="img-fluid imgfix" alt="Wedding photography by Agustin Garagorry" fetchpriority="high"></picture>
         </div>
 
 </header>
@@ -107,128 +109,128 @@
     <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-2 g-3" data-masonry='{"percentPosition": true }'>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana1.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana1.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana1.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana1.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana1.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana2.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana2.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana2.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana2.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana2.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/eduardandjohana/eduardoandjohana3.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana3.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana3.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana3.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana3.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana4.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana4.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana4.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana4.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana4.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana5.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana5.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana5.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana5.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana5.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/eduardandjohana/eduardoandjohana6.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana6.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana6.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana6.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana6.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana7.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana7.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana7.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana7.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana7.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana8.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana8.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana8.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana8.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana8.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/eduardandjohana/eduardoandjohana9.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana9.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana9.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana9.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana9.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana10.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana10.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana10.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana10.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana10.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana11.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana11.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana11.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana11.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana11.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/eduardandjohana/eduardoandjohana12.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana12.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana12.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana12.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana12.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana13.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana13.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana13.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana13.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana13.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana14.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana14.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana14.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana14.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana14.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/eduardandjohana/eduardoandjohana15.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana15.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana15.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana15.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana15.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana16.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana16.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana16.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana16.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana16.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana17.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana17.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana17.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana17.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana17.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/eduardandjohana/eduardoandjohana18.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana18.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana18.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana18.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana18.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana19.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana19.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana19.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana19.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana19.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/eduardandjohana/eduardoandjohana20.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana20.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana20.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana20.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana20.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/eduardandjohana/eduardoandjohana21.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana21.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana21.jpg" width="100%" height="auto"
-            alt="Wedding photo by Agustin Garagorry"></picture>
+          <picture><source srcset="img/galeria/eduardandjohana/eduardoandjohana21.webp" type="image/webp"><img src="img/galeria/eduardandjohana/eduardoandjohana21.jpg" width="1600" height="1067"
+            alt="Wedding photo by Agustin Garagorry" loading="lazy"></picture>
         </a>
       </div>
       
@@ -254,7 +256,8 @@
 
 <section>
     <article class="container-fluid g-0">
-        <div class="instagram-section">
+        <!-- @include instagram -->
+<div class="instagram-section">
             <h3 class="instagram-title">Follow me on Instagram</h3>
             <div class="instagram-grid">
                 <div class="instagram-box">
@@ -279,6 +282,7 @@
             <a class="btn btn-inline-block align-self-center instagram-btn"
             href="https://www.instagram.com/agustingaragorry/" target="_blank"> View more on Instagram </a>
         </div>
+<!-- @endinclude instagram -->
     </article>
 </section>
 
@@ -286,6 +290,7 @@
 
 
 
+<!-- @include footer -->
 <footer>
     <div class="line"></div>
     <section id="redesbox">
@@ -300,6 +305,7 @@
     <a id="mywedbest" target="_blank" href="https://mywed.com/es/photographer/agustingaragorry/"><img src="img/redes/mywedbig_Mesa de trabajo 1.svg" alt="Wedding photography by Agustin Garagorry"></a>
 
 </footer>
+<!-- @endinclude footer -->
 
 
 <script src="js/bootstrap.bundle5.1.1.min.js"></script>

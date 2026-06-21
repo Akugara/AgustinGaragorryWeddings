@@ -35,51 +35,53 @@
 
 <body onload="cargaGaleria()">
   <header class="subpages">
-    <div class="container-fluid fixed-top" id="menu">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-          <a href="index.html" class="navbar-brand">
-              <img src="logoagustin.png" alt="Logotipo Agustin Garagorry wedding photography" width="400" height="100%"
-                  class="d-inline-block align-top" alt="logotipo de Agustin Garagorry wedding photographer">
-              <span style="display: none;">Agustin Garagorry</span>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#toggleMobileMenu" aria-controls="#toggleMobileMenu" aria-expanded="false"
-              aria-label="Toggle navigation" id="myNavBartoggler" onclick="darkMenuMobile()">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="toggleMobileMenu">
-              <ul class="navbar-nav ms-auto text-center">
-                  <li>
-                      <a class="nav-link animacion-navbar" href="aboutme.html" onclick="hideMenu()">about me</a>
-                  </li>
-                  <li class="dropdown">
-                      <a class="nav-link animacion-navbar dropbtn" href="#" onclick="hideMenu()">Weddings
+    <!-- @include nav -->
+<div class="container-fluid fixed-top" id="menu">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="logoagustin.png" alt="Logotipo Agustin Garagorry wedding photography" width="400" height="100%"
+                            class="d-inline-block align-top" alt="logotipo de Agustin Garagorry wedding photographer">
+                        <span style="display: none;">Agustin Garagorry</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#toggleMobileMenu" aria-controls="#toggleMobileMenu" aria-expanded="false"
+                        aria-label="Toggle navigation" id="myNavBartoggler" onclick="darkMenuMobile()">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                        <ul class="navbar-nav ms-auto text-center">
+                            <li>
+                                <a class="nav-link animacion-navbar" href="aboutme.html" onclick="hideMenu()">about me</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="nav-link animacion-navbar dropbtn" href="#" onclick="hideMenu()">Weddings
 
-                        <div class="dropdown-content">
-                          <a class="nav-link animacion-navbar" href="sebastian-ilona.html">sebastian & ilona</a>
-                          <a class="nav-link animacion-navbar" href="donato-chiara.html">donato & chiara</a>
-                          <a class="nav-link animacion-navbar" href="martin-maite.html">martin & maite</a>
-                          <a class="nav-link animacion-navbar" href="eduard-johana.html">eduard & johana</a>
-                          <a class="nav-link animacion-navbar" href="joanne-walter.html">joanne & walter</a>
-                          <a class="nav-link animacion-navbar" href="matias-aurora.html">matias & aurora</a>
-                        </div>
+                                  <div class="dropdown-content">
+                                    <a class="nav-link animacion-navbar" href="sebastian-ilona.html">sebastian & ilona</a>
+                                    <a class="nav-link animacion-navbar" href="donato-chiara.html">donato & chiara</a>
+                                    <a class="nav-link animacion-navbar" href="martin-maite.html">martin & maite</a>
+                                    <a class="nav-link animacion-navbar" href="eduard-johana.html">eduard & johana</a>
+                                    <a class="nav-link animacion-navbar" href="joanne-walter.html">joanne & walter</a>
+                                    <a class="nav-link animacion-navbar" href="matias-aurora.html">matias & aurora</a>
+                                  </div>
 
-                      </a>
-
-                  </li>
-                  <li>
-                      <a class="nav-link animacion-navbar" href="tel:+358417259298"
-                          onclick="hideMenu()">call me</a>
-                  </li>
-                  <li>
-                      <a class="nav-link animacion-navbar" href="contact.html" id="link-destacado">Contact</a>
-                  </li>
-              </ul>
-          </div>
-      </nav>
-  </div>
+                                </a>
+                                    
+                            </li>
+                            <li>
+                                <a class="nav-link animacion-navbar" href="tel:+358417259298"
+                                    onclick="hideMenu()">call me</a>
+                            </li>
+                            <li>
+                                <a class="nav-link animacion-navbar" href="contact.html" id="link-destacado">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+<!-- @endinclude nav -->
         <div>
-        <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter22.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter22.jpg" class="img-fluid imgfix" alt="Wedding photography by Agustin Garagorry"></picture>
+        <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter22.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter22.jpg" class="img-fluid imgfix" alt="Wedding photography by Agustin Garagorry" fetchpriority="high"></picture>
         </div>
 
 </header>
@@ -107,164 +109,164 @@
     <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-2 g-3" data-masonry='{"percentPosition": true }'>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter1.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter1.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter1.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter1.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter1.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter2.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter2.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter2.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter2.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter2.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/joanneandwalter/joanneandwalter3.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter3.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter3.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter3.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter3.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter4.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter4.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter4.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter4.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter4.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter5.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter5.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter5.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter5.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter5.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/joanneandwalter/joanneandwalter6.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter6.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter6.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter6.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter6.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter7.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter7.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter7.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter7.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter7.jpg" width="1600" height="1023"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter8.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter8.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter8.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter8.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter8.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/joanneandwalter/joanneandwalter9.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter9.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter9.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter9.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter9.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter10.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter10.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter10.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter10.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter10.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter11.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter11.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter11.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter11.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter11.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/joanneandwalter/joanneandwalter12.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter12.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter12.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter12.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter12.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter13.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter13.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter13.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter13.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter13.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter14.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter14.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter14.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter14.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter14.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/joanneandwalter/joanneandwalter15.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter15.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter15.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter15.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter15.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter16.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter16.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter16.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter16.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter16.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter17.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter17.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter17.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter17.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter17.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/joanneandwalter/joanneandwalter18.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter18.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter18.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter18.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter18.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter19.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter19.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter19.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter19.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter19.jpg" width="1600" height="1066"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter20.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter20.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter20.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter20.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter20.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/joanneandwalter/joanneandwalter21.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter21.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter21.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter21.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter21.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter22.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter22.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter22.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter22.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter22.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter23.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter23.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter23.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter23.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter23.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/joanneandwalter/joanneandwalter24.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter24.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter24.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter24.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter24.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter25.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter25.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter25.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter25.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter25.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col">
         <a href="img/galeria/joanneandwalter/joanneandwalter26.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter26.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter26.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter26.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter26.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
       <div class="item col diferente">
         <a href="img/galeria/joanneandwalter/joanneandwalter27.jpg" class="fancybox" data-fancybox="gallery1">
-          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter27.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter27.jpg" width="100%" height="auto"
-            alt="Wedding photography"></picture>
+          <picture><source srcset="img/galeria/joanneandwalter/joanneandwalter27.webp" type="image/webp"><img src="img/galeria/joanneandwalter/joanneandwalter27.jpg" width="1600" height="1067"
+            alt="Wedding photography" loading="lazy"></picture>
         </a>
       </div>
 
@@ -290,7 +292,8 @@
 
 <section>
     <article class="container-fluid g-0">
-        <div class="instagram-section">
+        <!-- @include instagram -->
+<div class="instagram-section">
             <h3 class="instagram-title">Follow me on Instagram</h3>
             <div class="instagram-grid">
                 <div class="instagram-box">
@@ -315,6 +318,7 @@
             <a class="btn btn-inline-block align-self-center instagram-btn"
             href="https://www.instagram.com/agustingaragorry/" target="_blank"> View more on Instagram </a>
         </div>
+<!-- @endinclude instagram -->
     </article>
 </section>
 
@@ -322,6 +326,7 @@
 
 
 
+<!-- @include footer -->
 <footer>
     <div class="line"></div>
     <section id="redesbox">
@@ -336,6 +341,7 @@
     <a id="mywedbest" target="_blank" href="https://mywed.com/es/photographer/agustingaragorry/"><img src="img/redes/mywedbig_Mesa de trabajo 1.svg" alt="Wedding photography by Agustin Garagorry"></a>
 
 </footer>
+<!-- @endinclude footer -->
 
 
 <script src="js/bootstrap.bundle5.1.1.min.js"></script>
