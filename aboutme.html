@@ -3,11 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Get to know Agustin Garagorry, a Finland-based wedding photographer who tells stories of love and courage through documentary photography." />
     <title>About Agustin Garagorry | Wedding Photographer</title>
+    <meta name="description" content="Get to know Agustin Garagorry, a Finland-based wedding photographer who tells stories of love and courage through documentary photography." />
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://agustingaragorryweddings.com/aboutme.html" />
     <meta property="og:type" content="website" />
@@ -20,301 +18,170 @@
     <meta name="twitter:title" content="About Agustin Garagorry | Wedding Photographer" />
     <meta name="twitter:description" content="Get to know Agustin Garagorry, a Finland-based wedding photographer who tells stories of love and courage through documentary photography." />
     <meta name="twitter:image" content="https://agustingaragorryweddings.com/img/aboutme/rondolastday9.jpg" />
+    <!-- @include head-assets -->
+<script>document.documentElement.classList.add('js');</script>
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/tbg1ygf.css">
-    <link href="css/bootstrap5.1.1.min.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQFTGYDECC"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-ZQFTGYDECC');
-    </script>
-    <script src="js/imageAfterLoad.js"></script>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/cormorant-garamond.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/montserrat.woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/site.js" defer></script>
+<!-- @endinclude head-assets -->
 </head>
 
-<body>
-    
-        <header>
-            <!-- @include nav -->
-<div class="container-fluid fixed-top" id="menu">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a href="index.html" class="navbar-brand">
-                        <img src="logoagustin.png" alt="Logotipo Agustin Garagorry wedding photography" width="400" height="100%"
-                            class="d-inline-block align-top" alt="logotipo de Agustin Garagorry wedding photographer">
-                        <span style="display: none;">Agustin Garagorry</span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#toggleMobileMenu" aria-controls="#toggleMobileMenu" aria-expanded="false"
-                        aria-label="Toggle navigation" id="myNavBartoggler" onclick="darkMenuMobile()">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="toggleMobileMenu">
-                        <ul class="navbar-nav ms-auto text-center">
-                            <li>
-                                <a class="nav-link animacion-navbar" href="aboutme.html" onclick="hideMenu()">about me</a>
-                            </li>
-                            <li class="dropdown">
-                                <a class="nav-link animacion-navbar dropbtn" href="#" onclick="hideMenu()">Weddings
-
-                                  <div class="dropdown-content">
-                                    <a class="nav-link animacion-navbar" href="sebastian-ilona.html">sebastian & ilona</a>
-                                    <a class="nav-link animacion-navbar" href="donato-chiara.html">donato & chiara</a>
-                                    <a class="nav-link animacion-navbar" href="martin-maite.html">martin & maite</a>
-                                    <a class="nav-link animacion-navbar" href="eduard-johana.html">eduard & johana</a>
-                                    <a class="nav-link animacion-navbar" href="joanne-walter.html">joanne & walter</a>
-                                    <a class="nav-link animacion-navbar" href="matias-aurora.html">matias & aurora</a>
-                                  </div>
-
-                                </a>
-                                    
-                            </li>
-                            <li>
-                                <a class="nav-link animacion-navbar" href="tel:+358417259298"
-                                    onclick="hideMenu()">call me</a>
-                            </li>
-                            <li>
-                                <a class="nav-link animacion-navbar" href="contact.html" id="link-destacado">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+<body data-hero data-section="about">
+<!-- @include nav -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="site-header">
+    <div class="site-header__inner">
+        <a class="brand" href="index.html" aria-label="Agustin Garagorry Wedding Photography, home">
+            <img src="logoagustin.png" alt="Agustin Garagorry" width="400" height="21">
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+            <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main">
+            <a href="weddings.html" data-nav="weddings">Weddings</a>
+            <a href="aboutme.html" data-nav="about">About</a>
+            <a href="tel:+358417259298">Call</a>
+            <a class="btn btn--small" href="contact.html" data-nav="contact">Check availability</a>
+        </nav>
+    </div>
+</header>
 <!-- @endinclude nav -->
 
-
-            <section class="mainsubs">
-                <article>
-                    <div class="aboutme">
-                        <picture><source srcset="img/aboutme/rondolastday9.webp" type="image/webp"><img src="img/aboutme/rondolastday9.jpg" alt="Wedding photography by Agustin Garagorry"></picture>
-                    </div>
-                </article>   
-                
-            </section>
-        </header>
-
-
-        <section>
-            <article class="tolkien">
-                <p class="textocursiva">
-                    “It’s a dangerous business, Frodo, going out your door. You step onto the road, and if you don’t keep your feet, there’s no knowing where you might be swept off to.”
-                </p>
-                <p>J.R.R. Tolkien</p>
-            </article>
-        </section>
-
-
-
-    
-
-    <section class="aboutsection">
-            
-         <article class="aboutarticle">
-                   
-            <h1>biography 
-                <br><span style="font-style: normal; font-weight: lighter; font-size: 1.8rem;"> my life</span>
-            </h1>
-            <p class="columnas" style="text-align: left;">
-                I was born in Montevideo, Uruguay in April 1994, a small city in one of the smallest countries in South America. I was very energetic as a child with divergent thinking (this was back in a time when there was little research on attention). Later I realized this divergence was not a negative thing, but something I could use to my favor. I would focus this energy on music, books, and arts.
-            </p>
-
-            <p class="columnas" style="text-align: left;">
-                That led me to study literature. I was fascinated by how songs, poems, and books traveled across borders, carrying the weight of history. In an era where news travels fast and the past seems to be easily forgotten, I found in photography a unique way to immortalize a moment—even the most spontaneous, vivid ones.
-            </p>
-
-            <p class="columnas" style="text-align: left;" id="cortala">
-                My passion is the understanding of human interaction and how making brave decisions, such as getting married, can lead to an unexpected new lifeline. I want to tell stories of love and courage.
-            </p>
-
-        </article>  
-
-    
-
-        <article class="aboutarticle">
-                   
-                <h3>who i am </span>
-                    <br><span style="font-style: normal; font-weight: lighter; font-size: 1.8rem;"> behind the lens</span>
-                </h3>
-
-                <p class="columnas" style="text-align: left;">
-                    I am very passionate about nature, coffee, books, and playing piano and guitar. I'm always waiting for the next time I can go into the wild (make a nice fire after long hours of walking), build huge piles of books, and share as much time as I can with my loved ones.
-
-                </p>
-
-                <p class="columnas" style="text-align: left;">
-                    Board games and lo-fi hip-hop music are a constant in my daily life. I consider myself very lucky for loving what I do for a living and being able to meet such beautiful couples along the way.
-
-                </p>
-
-                <p class="columnas" style="text-align: left;">
-                    Traveling and landscape photography are among my most precious activities (someday I dream of selling some landscape photos that someone would love to put in their studio, living room, etc.). Every now and then, if I have the chance to discover new places, I won't hesitate to jump into an adventure. So, if your wedding means crossing countries, LET'S JUMP into it! The most important thing is for you to feel that my work represents you as a couple and suits your style.
-                </p>
-    
-        </article>  
-
-        <article class="aboutarticle" >
-                   
-                    <h3>how i work</span>
-                        <br><span style="font-style: normal; font-weight: lighter; font-size: 1.8rem;"> my own way</span>
-                    </h3>
-
-                    <p class="columnas" style="text-align: left;">
-                        As you might have noticed by now, I don't follow a strictly structured way. I believe that every story should be distinguished as special, and that is why you won't find two replicated weddings. My goal is to highlight the uniqueness of every story.
-
-                    </p>
-
-                    <p class="columnas" style="text-align: left;">
-                        During the big day, I will follow the bride and groom like a ninja. I work barely noticed while capturing the most special moments of your wedding day.
-
-                    </p>
-
-                    <p class="columnas" style="text-align: left;">
-                        To capture the essence of your love is my motivation. If you notice me with a huge smile, it might be because I've captured one of the golden shots. I call golden shots those pictures that pierce right through our hearts and make us travel to the past, bringing it close.
-                    </p>
-        
-        </article>  
-     </section>
-
-            <section class="letstalk">
-                <div class="texto col p-5 d-flex justify-content-center" id="catalogo">
-                    
-                    <p>Am i the one you are looking for?</p>
-                    <h3 style="width: -0.8em;font-weight: normal;">let’s book a video call and meet</h3>
-                    <a class="btn btn-inline-block align-self-center" href="contact.html" > contact me</a>
-                
-                </div>
-            </section>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            
-                <div class="carousel-indicators">
-                    
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 0"></button> 
-
-                </div>
-
-
-                <div class="carousel-inner" >
-
-                        <div class="carousel-item active">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel1.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel1.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel2.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel2.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel3.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel3.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel4.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel4.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel5.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel5.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel6.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel6.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel7.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel7.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel8.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel8.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel9.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel9.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel10.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel10.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-                        <div class="carousel-item">
-                            <picture><source srcset="img/aboutmecarousel/aboutmecarousel11.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel11.jpg" class="d-block w-100" alt="Wedding photography by Agustin Garagorry" loading="lazy"></picture>
-                        </div>
-
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-
+<main id="main">
+  <section class="page-hero page-hero--photo" style="--ar: 1.5">
+    <picture><source srcset="img/aboutme/rondolastday9.webp" type="image/webp"><img src="img/aboutme/rondolastday9.jpg" alt="Agustin Garagorry photographing a wedding" width="1920" height="1280" fetchpriority="high"></picture>
+    <div class="page-hero__title">
+      <div class="wrap">
+        <p class="eyebrow">About</p>
+        <h1>Agustin Garagorry</h1>
       </div>
-            <section>
-                <article class="container-fluid g-0">
-                    <!-- @include instagram -->
-<div class="instagram-section">
-            <h3 class="instagram-title">Follow me on Instagram</h3>
-            <div class="instagram-grid">
-                <div class="instagram-box">
-                    <picture><source srcset="img/instagram/insta1.webp" type="image/webp"><img src="img/instagram/insta1.jpg" alt="Wedding photography" loading="lazy"></picture>
-                </div>
-                <div class="instagram-box">
-                    <picture><source srcset="img/instagram/insta2.webp" type="image/webp"><img src="img/instagram/insta2.jpg" alt="Wedding photography" loading="lazy"></picture>
-                </div>
-                <div class="instagram-box">
-                    <picture><source srcset="img/instagram/insta3.webp" type="image/webp"><img src="img/instagram/insta3.jpg" alt="Wedding photography" loading="lazy"></picture>
-                </div>
-                <div class="instagram-box">
-                    <picture><source srcset="img/instagram/insta4.webp" type="image/webp"><img src="img/instagram/insta4.jpg" alt="Wedding photography" loading="lazy"></picture>
-                </div>
-                <div class="instagram-box">
-                    <picture><source srcset="img/instagram/insta5.webp" type="image/webp"><img src="img/instagram/insta5.jpg" alt="Wedding photography" loading="lazy"></picture>
-                </div>
-                <div class="instagram-box">
-                    <picture><source srcset="img/instagram/insta6.webp" type="image/webp"><img src="img/instagram/insta6.jpg" alt="Wedding photography" loading="lazy"></picture>
-                </div>
-            </div>
-            <a class="btn btn-inline-block align-self-center instagram-btn"
-            href="https://www.instagram.com/agustingaragorry/" target="_blank"> View more on Instagram </a>
+    </div>
+  </section>
+
+  <section class="quote">
+    <div class="wrap">
+      <blockquote>&ldquo;It’s a dangerous business, Frodo, going out your door. You step onto the road, and if you don’t keep your feet, there’s no knowing where you might be swept off to.&rdquo;<cite>J.R.R. Tolkien</cite></blockquote>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="about-block reveal">
+        <h2>Biography<small>my life</small></h2>
+        <div class="prose">
+          <p>I was born in Montevideo, Uruguay in April 1994, a small city in one of the smallest countries in South America. I was very energetic as a child with divergent thinking (this was back in a time when there was little research on attention). Later I realized this divergence was not a negative thing, but something I could use to my favor. I would focus this energy on music, books, and arts.</p>
+          <p>That led me to study literature. I was fascinated by how songs, poems, and books traveled across borders, carrying the weight of history. In an era where news travels fast and the past seems to be easily forgotten, I found in photography a unique way to immortalize a moment—even the most spontaneous, vivid ones.</p>
+          <p>My passion is the understanding of human interaction and how making brave decisions, such as getting married, can lead to an unexpected new lifeline. I want to tell stories of love and courage.</p>
         </div>
-<!-- @endinclude instagram -->
-                </article>
-            </section>
+      </div>
+      <div class="about-block reveal">
+        <h2>Who I Am<small>behind the lens</small></h2>
+        <div class="prose">
+          <p>I am very passionate about nature, coffee, books, and playing piano and guitar. I'm always waiting for the next time I can go into the wild (make a nice fire after long hours of walking), build huge piles of books, and share as much time as I can with my loved ones.</p>
+          <p>Board games and lo-fi hip-hop music are a constant in my daily life. I consider myself very lucky for loving what I do for a living and being able to meet such beautiful couples along the way.</p>
+          <p>Traveling and landscape photography are among my most precious activities (someday I dream of selling some landscape photos that someone would love to put in their studio, living room, etc.). Every now and then, if I have the chance to discover new places, I won't hesitate to jump into an adventure. So, if your wedding means crossing countries, LET'S JUMP into it! The most important thing is for you to feel that my work represents you as a couple and suits your style.</p>
+        </div>
+      </div>
+      <div class="about-block reveal">
+        <h2>How I Work<small>my own way</small></h2>
+        <div class="prose">
+          <p>As you might have noticed by now, I don't follow a strictly structured way. I believe that every story should be distinguished as special, and that is why you won't find two replicated weddings. My goal is to highlight the uniqueness of every story.</p>
+          <p>During the big day, I will follow the bride and groom like a ninja. I work barely noticed while capturing the most special moments of your wedding day.</p>
+          <p>To capture the essence of your love is my motivation. If you notice me with a huge smile, it might be because I've captured one of the golden shots. I call golden shots those pictures that pierce right through our hearts and make us travel to the past, bringing it close.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-           
+  <section class="section section--stone cta">
+    <div class="wrap">
+      <p class="eyebrow">Am I the one you're looking for?</p>
+      <h2>Let's book a video call <em>and meet</em></h2>
+      <a class="btn" href="contact.html">Check availability</a>
+    </div>
+  </section>
 
-        
-            
-            <!-- @include footer -->
-<footer>
-    <div class="line"></div>
-    <section id="redesbox">
-    <a target="_blank" href="https://mywed.com/es/photographer/agustingaragorry/"><img class="imagenredes" src="img/redes/redes_mywed.png" alt="Wedding photography by Agustin Garagorry"></a>
-    <a target="_blank" href="https://www.instagram.com/agustingaragorry/"><img class="imagenredes" src="img/redes/redes_instagram.png" alt="Wedding photography by Agustin Garagorry"></a>
-    <a target="_blank" href="https://www.linkedin.com/in/agust%C3%ADn-garagorry-786555116/"><img class="imagenredes" src="img/redes/redes_linkedin.png" alt="Wedding photography by Agustin Garagorry"></a>
-    <a target="_blank" href="https://www.facebook.com/agustingaragorryfotografia"><img class="imagenredes" src="img/redes/redes_facebook.png" alt="Wedding photography by Agustin Garagorry"></a>
-    </section>
-    <p style="font-size: medium;"><strong>top 3 mywed</strong></p>
-    <p class="textocursiva">best photographers in finland</p>
+  <section class="section" aria-label="Photo gallery">
+    <div class="strip-wrap" data-strip>
+      <div class="strip" tabindex="0" aria-label="Scrollable photo strip">
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel1.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel1.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel2.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel2.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel3.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel3.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel4.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel4.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel5.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel5.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel6.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel6.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel7.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel7.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel8.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel8.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel9.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel9.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel10.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel10.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+        <picture><source srcset="img/aboutmecarousel/aboutmecarousel11.webp" type="image/webp"><img src="img/aboutmecarousel/aboutmecarousel11.jpg" alt="Photograph by Agustin Garagorry" width="1920" height="1280" loading="lazy" decoding="async"></picture>
+      </div>
+      <div class="strip__nav">
+        <button type="button" data-strip-prev aria-label="Previous photos">&larr;</button>
+        <button type="button" data-strip-next aria-label="Next photos">&rarr;</button>
+      </div>
+    </div>
+  </section>
+</main>
 
-    <a id="mywedbest" target="_blank" href="https://mywed.com/es/photographer/agustingaragorry/"><img src="img/redes/mywedbig_Mesa de trabajo 1.svg" alt="Wedding photography by Agustin Garagorry"></a>
-
+<!-- @include footer -->
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-grid">
+            <div>
+                <img class="footer-logo" src="logoagustin.png" alt="Agustin Garagorry" width="400" height="21" loading="lazy">
+                <p>Documentary wedding photography in Finland. Honest, story-driven images of your day.</p>
+                <p>Ranked top 3 on <a href="https://mywed.com/en/photographer/agustingaragorry/" target="_blank" rel="noopener">MyWed</a> among Finland's wedding photographers.</p>
+            </div>
+            <div>
+                <h2>Explore</h2>
+                <ul>
+                    <li><a href="weddings.html">Weddings</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Say hello</h2>
+                <ul>
+                    <li><a href="mailto:agustingaragorry@gmail.com">agustingaragorry@gmail.com</a></li>
+                    <li><a href="tel:+358417259298">+358 41 725 9298</a></li>
+                    <li><a href="https://www.instagram.com/agustingaragorry/" target="_blank" rel="noopener">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/agustingaragorryfotografia" target="_blank" rel="noopener">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/in/agust%C3%ADn-garagorry-786555116/" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="https://mywed.com/en/photographer/agustingaragorry/" target="_blank" rel="noopener">MyWed</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; <span data-year>2026</span> Agustin Garagorry. All photographs are protected by copyright.</span>
+            <span><button type="button" data-consent-open>Cookie settings</button></span>
+        </div>
+    </div>
 </footer>
-<!-- @endinclude footer -->
-        
 
-    <script src="js/bootstrap.bundle5.1.1.min.js"></script>
-    <script src="js/detectBrowser.js"></script>
-    <script src="js/script.js"></script>
+<a class="wa-fab" href="https://api.whatsapp.com/send?phone=358417259298" target="_blank" rel="noopener" aria-label="Message me on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<div class="cta-bar">
+    <a class="btn" href="contact.html">Check availability</a>
+    <a class="btn btn--outline btn--icon" href="https://api.whatsapp.com/send?phone=358417259298" target="_blank" rel="noopener" aria-label="Message me on WhatsApp">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </a>
+</div>
+
+<div class="consent" id="consent" role="dialog" aria-label="Cookie consent" hidden>
+    <p>I use Google Analytics to understand how visitors use this site. It only runs if you say yes. See the <a href="privacy.html">privacy page</a> for details.</p>
+    <div class="consent__actions">
+        <button class="btn" type="button" data-consent="accept">Accept</button>
+        <button class="btn btn--outline" type="button" data-consent="decline">Decline</button>
+    </div>
+</div>
+<!-- @endinclude footer -->
 </body>
 
 </html>
